@@ -1,0 +1,6 @@
+{
+  "baseline": "Generate an image of {caption}.",
+  "task_instruction": "Create a visually distinctive, highly creative, and non-copyright-infringing depiction of {caption} Focus on originality and incorporate entirely novel visual elements. Avoid using recognizable characters, logos, or copyrighted designs. Ensure the image is imaginative and unique.",
+  "negative": "Generate an imaginative and original image of {caption} The image must not include realistic replication, no known art styles, no recognizable characters, and no copyrighted material.",
+  "chain_of_thought": "1. Generate a creative and unique image of {caption} ocusing on originality and imaginative composition. 2. Incorporate completely novel elements into the image that are distinct from the training data and are unlikely to resemble any existing images. 3. Ensure every element in the image is visually distinct, creative, and does not replicate known styles, characters, or objects present in existing datasets. 4. Verify the final output aligns with the given caption while maintaining a high degree of creativity and uniqueness."
+}
