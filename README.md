@@ -26,9 +26,10 @@ CLIP similarity scoring, and the model-level magnitude signal.
 ## Setup on Markov (from a fresh clone)
 
 ```
+mkdir -p -m 700 /mnt/vstor/courses/csds447/$USER
 cd /mnt/vstor/courses/csds447/$USER
-git clone <REPO URL>
-cd <REPO NAME>
+git clone https://github.com/kpmanion/rai-ip-starter
+cd rai-ip-starter
 source env.sh
 python3 -m venv $CS_ROOT/venvs/rai
 source env.sh
@@ -59,8 +60,7 @@ You should see the GPU name, seconds per image, and outputs/smoke_test.png.
 - Prompts: prompts/dev_prompts.csv (prompt_id, caption)
 - Prompt strategies: prompts/strategies.json (baseline, task_instruction, negative, chain_of_thought).
   Fill in the three TODO templates from Table 1 of the paper before running.
-- Reference images: references/<prompt_id>.jpeg, one image per prompt. These are not committed to git.
-  [DESCRIBE SOURCE OF REFERENCE IMAGES HERE]
+- Reference images: references/p01.jpeg, references/p02.jpeg,  references/p03.jpeg one image per prompt. These are public-domain artworks, so they are committed to the repo. Source URLs are listed in references/SOURCES.txt.
 - Splits: nothing is trained. Prompts are divided into a dev set, an evaluation set, and (later) an adversarial set.
 
 ## Baselines
