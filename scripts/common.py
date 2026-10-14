@@ -2,7 +2,7 @@ import json
 
 import torch
 
-MODEL_ID = "stabilityai/stable-diffusion-2"
+MODEL_ID = "sd2-community/stable-diffusion-2"
 CLIP_ID = "openai/clip-vit-large-patch14"
 THRESHOLD = 0.85
 

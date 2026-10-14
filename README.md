@@ -55,7 +55,7 @@ You should see the GPU name, seconds per image, and outputs/smoke_test.png.
 
 ## Data and models
 
-- Model: stabilityai/stable-diffusion-2 (Hugging Face), 30 steps, guidance scale 7.5, as in the paper
+- Model: sd2-community/stable-diffusion-2 (Hugging Face), 30 steps, guidance scale 7.5, as in the paper
 - Similarity model: openai/clip-vit-large-patch14 (the paper does not name its CLIP variant; this is our choice)
 - Prompts: prompts/dev_prompts.csv (prompt_id, caption)
 - Prompt strategies: prompts/strategies.json (baseline, task_instruction, negative, chain_of_thought).

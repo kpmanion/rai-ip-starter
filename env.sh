@@ -1,3 +1,4 @@
+module load git
 export CS_ROOT=/mnt/vstor/courses/csds447/$USER
 export HF_HOME=$CS_ROOT/hf_cache
 export TORCH_HOME=$CS_ROOT/torch_cache
